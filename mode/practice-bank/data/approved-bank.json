@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "exportedAt": "2026-11-24T03:11:45.025Z",
+  "tasks": [
+    {
+      "id": "task:sensor-debug",
+      "name": "传感器联调",
+      "directions": [
+        "电子信息",
+        "物联网"
+      ],
+      "patterns": [
+        "传感器联调",
+        "传感器调试",
+        "传感器.*联调"
+      ],
+      "source": "原创电子信息样例"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "sensor-debug-sample",
+      "title": "传感器联调排查",
+      "typeLabel": "开放场景题 · 不自动打分",
+      "discipline": "电子信息 / 物联网",
+      "difficulty": "中等",
+      "taskTags": [
+        "task:sensor-debug"
+      ],
+      "prompt": "设备在实验室联调时偶发读数漂移。你会如何确认传感器与采集配置并定位问题？",
+      "referencePoints": [
+        "先核对供电与接线",
+        "检查采样配置与校准",
+        "复现并记录异常条件",
+        "给出验证步骤"
+      ],
+      "evaluationPoints": [
+        "先核对供电与接线",
+        "检查采样配置与校准",
+        "复现并记录异常条件",
+        "给出验证步骤"
+      ],
+      "followUps": [],
+      "selfCheck": [
+        "我是否直接回应了题目任务？",
+        "我是否说明了判断依据？",
+        "我是否给出了可验证的下一步？"
+      ],
+      "sourceNote": "原创电子信息场景，用于本地题库验收。"
+    }
+  ]
+}

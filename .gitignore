@@ -1,0 +1,11 @@
+node_modules/
+dist/
+*.local
+*.log
+.DS_Store
+.qoder/
+*.qoder.site
+.env
+.env.*
+!.env.example
+screenshots/
